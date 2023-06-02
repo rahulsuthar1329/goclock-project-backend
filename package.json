@@ -1,7 +1,7 @@
 {
   "name": "dashboard-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "goclock-dashboard",
   "type": "module",
   "main": "index.js",
   "engines": {
