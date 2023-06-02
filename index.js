@@ -19,10 +19,6 @@ app.use("/user", userRoutes);
 app.use("/post", postRoutes);
 app.use("/data", dataRoutes);
 
-app.get("/", (req, res) => {
-  res.send("Dashboard");
-});
-
 app.listen(port, (err) => {
   if (err) console.log("Server starting error : ", err);
   else console.log(`Server Listening at port ${port}`);
